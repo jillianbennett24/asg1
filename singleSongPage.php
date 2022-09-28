@@ -1,6 +1,3 @@
 <?php
-echo "heyyyy";
+echo "yOOOO";
 ?>
-<html>
-    yo bruh checky 
-</html>
