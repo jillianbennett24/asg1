@@ -37,6 +37,7 @@ try{
             color: #f7eae3;
             border-radius: 5%;
             margin: auto;
+            margin-bottom: 2em;
         }
         form p{
             padding: 1em;
