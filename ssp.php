@@ -38,20 +38,17 @@ try {
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Single song page PLAYING AROUND FOR HTML+CSS</title>
+        <title>Single Song Page</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="./css/theFile.css">
         <style>
+            /* Wierd css page quick fix  */
             .info{
                 justify-content: space-around;
             }
              .songitem p span{
                  font-size: larger;
                 } 
-
-  
-
-
         </style>
     </head>
     <body>
@@ -183,7 +180,7 @@ try {
 
         </main>
         <footer>
-            <p></p>
+        <p>COMP 3512 - </p><a href='https://github.com/jillianbennett24/asg1.git'> GitHub link </a> <p> - Created by Jillian Bennett. © 2022</p>
         </footer>
     </body>
     

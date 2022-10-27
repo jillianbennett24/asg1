@@ -33,24 +33,6 @@ try{
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/theFile.css">
     <link rel="stylesheet" href="./css/homePageStyles.css">
-    <style>
-/* .box table{
-    text-align: center;
-    margin:auto;
-}
-.normal{
-color:#4f484f;
-text-decoration: none;
-}
-tbody tr a:hover{
-    background-color: #edd9cc;
-    color: #266150;
-    text-decoration: none;
-}
-.box{
-    border:none;
-} */
-</style>
 </head>
 <body>
     <header>
@@ -204,7 +186,7 @@ tbody tr a:hover{
 
     </main>
     <footer>
-        this is the footer! 
+    <p>COMP 3512 - </p><a href='https://github.com/jillianbennett24/asg1.git'> GitHub link </a> <p> - Created by Jillian Bennett. © 2022</p>
     </footer>
 </body>
 

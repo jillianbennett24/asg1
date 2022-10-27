@@ -52,9 +52,6 @@ try{
         select{
             margin: auto;
         }
-
-
-
 </style>
     </head>
     
@@ -70,7 +67,7 @@ try{
                 <ul class="nav_list">
                     <li><a href='homePage.php'>Home</a></li>
                     <li><a href='fav.php'>Favorites</a></li>
-                    <li><a href=“bsrp.php?”>Browse</a></li>
+                    <li><a href='bsrp.php?'>Browse</a></li>
                     <li><a href='sp.php'>Search</a></li>
                 </ul>
             </nav>
@@ -122,36 +119,16 @@ try{
                     <input type="number" id="less2" name="popLess" min="0" max="100">
                 <input type="radio" name="ButtonTest" value="Greater" for="greater"> Greater</input>
                     <input type="number" id="greater" name="popGreater" min="1" max="100">
-</p>
+                </p>
                     <br>
                     <div class="searchButton">
                     <input type="submit" value="Search" id="sbutton">
                     </div>
-                <!-- <input type="submit" value="Search"> -->
-                
             </form>
             </div>
-
-            
-            <!-- <form>
-                <fieldset>
-                    <input type="radio" name="ButtonTest" value="title"></input>
-                    <label for="titleS">Title:</label>
-                    <input type="text" name="songTitleInput" id="titleS"size="60"/>
-                    <br><br>
-                    <input type="radio" name="ButtonTest" value="artist"></input>
-                    <label for="artistS">Artist:</label>
-                    <select name="artistSelected" id="artistSelected">
-                        <option value=0></option>
-                            <?php
-                               // outputArtists($artists);
-                            ?>
-                    </select>
-                </fieldset> 
-            </form>-->
         </main>
         <footer>
-            this is the footer! 
+        <p>COMP 3512 - </p><a href='https://github.com/jillianbennett24/asg1.git'> GitHub link </a> <p> - Created by Jillian Bennett. © 2022</p>
         </footer>
     </body>
 </html>

@@ -118,9 +118,7 @@ try{
             </table>
         </main>
         <footer>
-            <p>COMP 3512</p>
-            
-            <p></p>
+        <p>COMP 3512 - </p><a href='https://github.com/jillianbennett24/asg1.git'> GitHub link </a> <p> - Created by Jillian Bennett. © 2022</p>
         </footer>
     </body>
 </html>

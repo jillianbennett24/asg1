@@ -44,7 +44,6 @@ $songGateway=new SongsDB($con);
                     <li><a href='fav.php'>Favorites</a></li>
                     <li><a href='bsrp.php?'>Browse</a></li>
                     <li><a href='sp.php'>Search</a></li>
-                    <!-- <li><a href=“browse.html”>Browse</a></li> -->
                 </ul>
             </nav>
         </header>
@@ -63,7 +62,7 @@ $songGateway=new SongsDB($con);
                 </thead>
                 <tbody>
                     <?php 
-                    //echo json_encode($favorites);
+                    
                        for( $i=0;$i<count($favorites);$i++){
                             $testsong = $songGateway->getSongWSongId($favorites[$i]);
                             $song_id = $testsong[0]['song_id'];
@@ -77,12 +76,10 @@ $songGateway=new SongsDB($con);
 				Empty Favorites
             </a>
          
-            <!-- <a  href="emptyFavorites.php">
-				Empty Favorites
-            </a> -->
+            
         </main>
         <footer>
-            this is the footer! 
+        <p>COMP 3512 - </p><a href='https://github.com/jillianbennett24/asg1.git'> GitHub link </a> <p> - Created by Jillian Bennett. © 2022</p>
         </footer>
     </body>
 </html>
