@@ -176,8 +176,6 @@ try {
                             
                             </p>
                         </div>
-                       
-                   
                 </section>
 
 
@@ -185,7 +183,7 @@ try {
 
         </main>
         <footer>
-            this is the footer! 
+            <p></p>
         </footer>
     </body>
     
